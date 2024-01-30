@@ -38,6 +38,16 @@ body {
     padding-right: 15px;
 }
 
+.container-portfolio{
+    width: 100%;
+    padding-left:5%;
+}
+
+.header-portfolio{
+    width: 75%;
+    padding-left: 15%;
+}
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -682,7 +692,7 @@ button{
 }
 
 .examples-item {
-    width: 370px;
+    width: 100% - 20px;
 }
 
 .examples-item :last-child{
