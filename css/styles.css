@@ -586,7 +586,9 @@ button{
     font-weight: 700;
     text-transform: uppercase;
 }
-
+.foot-soc{
+ margin-left: 13%;
+}
 .social-foot{
     fill: var(--white-text-color);
     display: flex;
@@ -608,6 +610,8 @@ button{
     display: flex;
     gap: 10px;
 }
+
+
 
 
 
@@ -729,6 +733,35 @@ button{
 .examples-text{
     line-height: 1.9;
     letter-spacing: 0.03em;
+}
+
+
+/* РЕЗИНКА */
+
+.wrapdiv{
+
+    display: flex;
+    margin-top: 50px;
+}
+
+.left{
+    flex-basis: 50%;
+    background-color: rgb(228, 107, 0);
+    margin-right: 15px;
+}
+
+.right{
+    flex-basis: 50%;
+    background-color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+.rez{
+    padding: 15px;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 
